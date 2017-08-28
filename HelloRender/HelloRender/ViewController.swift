@@ -17,10 +17,11 @@ class TextComponentView: ComponentView<TextState> {
     override func render() -> NodeType {
         let text = Node<UILabel>{ view, layout, size in
             view.text = "\(self.state.text)"
+            view.textColor = UIColor(red:1.0, green:1.0, blue:1.0, alpha:1.0)
         }
 
         let container = Node<UIView> { view, layout, _ in
-
+            view.backgroundColor = UIColor(red:0, green:0.62, blue:0.88, alpha:1.0)
         }
 
         return container.add(child: text)
