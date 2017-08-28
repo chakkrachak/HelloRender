@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CED6CCBA3B08E4739DB9651254A512 /* YGEnums.c in Sources */ = {isa = PBXBuildFile; fileRef = CC69751EAF7DD1B60D3756A2BBF55AAC /* YGEnums.c */; };
+		0EE8664E79DF67B321D9238641EFCE16 /* ComponentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8F70FEC60DEAE4126B474662EF3E17 /* ComponentController.swift */; };
+		1277341FF8D5DDFEA28BD3FFEEC447D0 /* Pods-HelloRender-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8972D188B071086CE7302353CADBFC /* Pods-HelloRender-dummy.m */; };
+		13C111DBDD030876B6E781EFB23DAB2D /* Pods-HelloRender-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C76DAD01B457730C6F650A450BD315BE /* Pods-HelloRender-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1685DCDDA5C0C1A5D8AD5184DACE7A7F /* InternalCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8F7B5E23B4887C0636F316D73896D5 /* InternalCells.swift */; };
+		17A9192439DF9E0FED8BE0B66D26C337 /* YGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 680D709454129D3EA6E78AE72222C2CD /* YGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D1D0A32CAA5DA48451DB599ABEAA316 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DDA892C79CEF96D283CB0E90597612 /* Node.swift */; };
+		2DAB91E4185602DFD5D5A44EEEA28023 /* Render.h in Headers */ = {isa = PBXBuildFile; fileRef = B5055DFD403A0C5B3E2C89C6FBFF4D43 /* Render.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		328EE574BB3A32C061832F5A06BCCE65 /* ComponentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8BAD344F3308BBFB83E3BFA58A5E9 /* ComponentView.swift */; };
+		42687CEDF7A69BDE6ED425274945806C /* IGListCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E29F07BF943885EF3178872631A610 /* IGListCollectionViewLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48AFC61BFC1B091653491EA887E24B4C /* YGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCFD8E174778E405F1CA4757FA39327 /* YGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4ADC7ACCB6919F106D903955F8B5D96E /* Reset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71692814086FEA0B3544062AF680D8BC /* Reset.swift */; };
+		4C4E3FC8ACE8858103093B8200FEFFF4 /* Yoga.c in Sources */ = {isa = PBXBuildFile; fileRef = FB09E3094F2C60B10231EF834E8424DE /* Yoga.c */; };
+		575B24B55D7A40ADD38621E164EC10A8 /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = E1F44DF4FA2E660FB5EBF3206C5B2B98 /* Info.plist */; };
+		64270B00904AA006677D814B0EEB4EC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		675743D50DEB2C933E1481EEA15C3F12 /* YGNodeList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B182ECF6C19C16B22F602F87B08A96A /* YGNodeList.c */; };
+		7034E50A0A441D60CD1B15EDDF432537 /* YGPercentLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C7A023A03BFE498BF103D2136414B0B /* YGPercentLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6C3F7D3D3F564FD20F1DA9C252B88A /* YGNodeList.h in Headers */ = {isa = PBXBuildFile; fileRef = 486F68E5F2A6AAD0096DCADDDDC55D54 /* YGNodeList.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		825B7BA6181F511B30F803A8959DA1ED /* HttpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB58DED4C9F76114067A140218D745 /* HttpServer.swift */; };
+		91D262C8E2D4D0624FFFB363A6201C3E /* YGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BF53FFD3E99390ED8EF88905064BF7 /* YGLayout.m */; };
+		9F1BD75F591BF71A385F5DC4348DB377 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371813E06ECB82A9FCBA82F40E1C7AE1 /* Extensions.swift */; };
+		A2DED86CAD2E416E23D611BD1F655D25 /* Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = 498F3FB141FB2C558DC2D6E37E16F2EB /* Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0C4EC069F6039E27EC807DD0400451D /* YGEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 06996660122A744A048F5D38DF8A6373 /* YGEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2DC550A54E466CFD785548830801A12 /* TableNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AE8323875A465933E551742B12B51A /* TableNode.swift */; };
+		C5365091C092FB41A86F5D32EA20E2C3 /* UIView+Yoga.h in Headers */ = {isa = PBXBuildFile; fileRef = 270A617CB57ED1EAA41DBDAC6C89EFD2 /* UIView+Yoga.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E9D27A089A36877F0430EF91D3A226 /* Console.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F572165B0B0FE734D796A1E89E2C19 /* Console.swift */; };
+		CCABEFB2A9F11B2AD63ED64D7BAAB49A /* IGListCollectionViewLayout.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5E954103C1FBA0A4B446B26AE18BFDB8 /* IGListCollectionViewLayout.mm */; };
+		CDF3A7091B9E993406FD507472D4E0D8 /* YGPercentLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E6FD5187DAFD0309F6A2446D962D58 /* YGPercentLayout.m */; };
+		D1DFA25190860C1E6217E1B86390C163 /* UIView+Yoga.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C858110C07C0109057E323ED9DC3ED3 /* UIView+Yoga.m */; };
+		D4E60DB509E19B6681625EDF10B9D1D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D8E8934D993981631719EA33D7098E6A /* Render-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F93C209580B43327BAB6062DF2BFB9F /* Render-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA9F6144DA2749DFC4FF39FC9747486D /* YGPercentLayoutExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF586458555A2760AB02A01AB50563D /* YGPercentLayoutExtension.swift */; };
+		DB90A05F335C5019D5062058CAB36762 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF21F498EE08061F4FEDD4632C37831 /* State.swift */; };
+		DE4CF91CA24E25CB259B83B2F68571EF /* LCS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 672A45FB2D3EA641184088602B008272 /* LCS.swift */; };
+		EBAAD1D769B5978E8AD3B53A00695E2A /* CollectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB346780A003E56545DB4CDAB166A54 /* CollectionNode.swift */; };
+		EEBEE9D4D15C6C0410A34C6536238542 /* Render-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3CF8ACA91BF3252628D2EA05D0C71E /* Render-dummy.m */; };
+		F03DECE196A5FFCAAB6358DB7C125D1F /* ComponentViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D070736A14786208E6D8982D90B61354 /* ComponentViewCell.swift */; };
+		F6EC3296B626A040E891AC16DD480917 /* YGLayout+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B11328C87B28760FEEDEC901BCDEEFD /* YGLayout+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD9E799E9A3F9734A87903E3F9A0A21E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AAC809C2EA0983ED747CFAD8DC28C9E;
+			remoteInfo = Render;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00936747FC1EBEB2D56E0175FC9075E1 /* Pods-HelloRender-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloRender-acknowledgements.plist"; sourceTree = "<group>"; };
+		06996660122A744A048F5D38DF8A6373 /* YGEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGEnums.h; path = Render/objc/YGEnums.h; sourceTree = "<group>"; };
+		0B182ECF6C19C16B22F602F87B08A96A /* YGNodeList.c */ = {isa = PBXFileReference; includeInIndex = 1; name = YGNodeList.c; path = Render/objc/YGNodeList.c; sourceTree = "<group>"; };
+		12BF53FFD3E99390ED8EF88905064BF7 /* YGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YGLayout.m; path = Render/objc/YGLayout.m; sourceTree = "<group>"; };
+		1F93C209580B43327BAB6062DF2BFB9F /* Render-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Render-umbrella.h"; sourceTree = "<group>"; };
+		270A617CB57ED1EAA41DBDAC6C89EFD2 /* UIView+Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Yoga.h"; path = "Render/objc/UIView+Yoga.h"; sourceTree = "<group>"; };
+		2D8F70FEC60DEAE4126B474662EF3E17 /* ComponentController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentController.swift; path = Render/helpers/ComponentController.swift; sourceTree = "<group>"; };
+		371813E06ECB82A9FCBA82F40E1C7AE1 /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Render/helpers/Extensions.swift; sourceTree = "<group>"; };
+		3C7A023A03BFE498BF103D2136414B0B /* YGPercentLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGPercentLayout.h; path = Render/objc/YGPercentLayout.h; sourceTree = "<group>"; };
+		486F68E5F2A6AAD0096DCADDDDC55D54 /* YGNodeList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGNodeList.h; path = Render/objc/YGNodeList.h; sourceTree = "<group>"; };
+		498F3FB141FB2C558DC2D6E37E16F2EB /* Yoga.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Yoga.h; path = Render/objc/Yoga.h; sourceTree = "<group>"; };
+		4CF21F498EE08061F4FEDD4632C37831 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Render/core/State.swift; sourceTree = "<group>"; };
+		4D3CF8ACA91BF3252628D2EA05D0C71E /* Render-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Render-dummy.m"; sourceTree = "<group>"; };
+		4E76B4AAD70238EC7DE59A02A5218A97 /* Pods-HelloRender.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HelloRender.modulemap"; sourceTree = "<group>"; };
+		5C858110C07C0109057E323ED9DC3ED3 /* UIView+Yoga.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Yoga.m"; path = "Render/objc/UIView+Yoga.m"; sourceTree = "<group>"; };
+		5E954103C1FBA0A4B446B26AE18BFDB8 /* IGListCollectionViewLayout.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = IGListCollectionViewLayout.mm; path = Render/objc/IGListCollectionViewLayout.mm; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		672A45FB2D3EA641184088602B008272 /* LCS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LCS.swift; path = Render/deps/LCS.swift; sourceTree = "<group>"; };
+		680D709454129D3EA6E78AE72222C2CD /* YGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGMacros.h; path = Render/objc/YGMacros.h; sourceTree = "<group>"; };
+		6B11328C87B28760FEEDEC901BCDEEFD /* YGLayout+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "YGLayout+Private.h"; path = "Render/objc/YGLayout+Private.h"; sourceTree = "<group>"; };
+		6C059D95CCF47274A3F0A9BBF33E458A /* Pods-HelloRender-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloRender-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6FC4213D14477AB2E5A1785770BCF778 /* Render.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Render.framework; path = Render.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71692814086FEA0B3544062AF680D8BC /* Reset.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reset.swift; path = Render/helpers/Reset.swift; sourceTree = "<group>"; };
+		7FCFD8E174778E405F1CA4757FA39327 /* YGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YGLayout.h; path = Render/objc/YGLayout.h; sourceTree = "<group>"; };
+		8F8972D188B071086CE7302353CADBFC /* Pods-HelloRender-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HelloRender-dummy.m"; sourceTree = "<group>"; };
+		8FF586458555A2760AB02A01AB50563D /* YGPercentLayoutExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = YGPercentLayoutExtension.swift; path = Render/objc/YGPercentLayoutExtension.swift; sourceTree = "<group>"; };
+		90C8BAD344F3308BBFB83E3BFA58A5E9 /* ComponentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentView.swift; path = Render/core/ComponentView.swift; sourceTree = "<group>"; };
+		930F71E14ECA40E0E1C9849A1645ED1C /* Render.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Render.modulemap; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D1FBF4290716315500F5D00ED60C50 /* Render-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Render-prefix.pch"; sourceTree = "<group>"; };
+		A4CB58DED4C9F76114067A140218D745 /* HttpServer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpServer.swift; path = Render/deps/HttpServer.swift; sourceTree = "<group>"; };
+		B2E29F07BF943885EF3178872631A610 /* IGListCollectionViewLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IGListCollectionViewLayout.h; path = Render/objc/IGListCollectionViewLayout.h; sourceTree = "<group>"; };
+		B2F572165B0B0FE734D796A1E89E2C19 /* Console.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Console.swift; path = Render/helpers/Console.swift; sourceTree = "<group>"; };
+		B3D019566405168DD0751BF3148A6C2F /* Pods-HelloRender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloRender.debug.xcconfig"; sourceTree = "<group>"; };
+		B5055DFD403A0C5B3E2C89C6FBFF4D43 /* Render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Render.h; path = Render/Render.h; sourceTree = "<group>"; };
+		C76DAD01B457730C6F650A450BD315BE /* Pods-HelloRender-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloRender-umbrella.h"; sourceTree = "<group>"; };
+		C7AE8323875A465933E551742B12B51A /* TableNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableNode.swift; path = Render/lists/TableNode.swift; sourceTree = "<group>"; };
+		C877487E7A286EDA2110D2A616A73B2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA8F7B5E23B4887C0636F316D73896D5 /* InternalCells.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InternalCells.swift; path = Render/lists/InternalCells.swift; sourceTree = "<group>"; };
+		CAB346780A003E56545DB4CDAB166A54 /* CollectionNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionNode.swift; path = Render/lists/CollectionNode.swift; sourceTree = "<group>"; };
+		CC69751EAF7DD1B60D3756A2BBF55AAC /* YGEnums.c */ = {isa = PBXFileReference; includeInIndex = 1; name = YGEnums.c; path = Render/objc/YGEnums.c; sourceTree = "<group>"; };
+		CF027200F27F92EDB383C4D507CDE707 /* Render.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Render.xcconfig; sourceTree = "<group>"; };
+		D070736A14786208E6D8982D90B61354 /* ComponentViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ComponentViewCell.swift; path = Render/core/ComponentViewCell.swift; sourceTree = "<group>"; };
+		D2F51FA7CB87516B9EB3E8DBAC157092 /* Pods-HelloRender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloRender.release.xcconfig"; sourceTree = "<group>"; };
+		D9E7F6ACB7D96DF9A1E92738662F39D1 /* Pods-HelloRender-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloRender-frameworks.sh"; sourceTree = "<group>"; };
+		DB0E785E7A59B120839C4252E75C6EAB /* Pods-HelloRender-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloRender-resources.sh"; sourceTree = "<group>"; };
+		DEEBC208B18872D6B9203C2C8542F1DE /* Pods_HelloRender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HelloRender.framework; path = "Pods-HelloRender.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1F44DF4FA2E660FB5EBF3206C5B2B98 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Render/Info.plist; sourceTree = "<group>"; };
+		E235CA6BB9839BA51EFAA3894ABA4F36 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9E6FD5187DAFD0309F6A2446D962D58 /* YGPercentLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YGPercentLayout.m; path = Render/objc/YGPercentLayout.m; sourceTree = "<group>"; };
+		F2DDA892C79CEF96D283CB0E90597612 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Render/core/Node.swift; sourceTree = "<group>"; };
+		FB09E3094F2C60B10231EF834E8424DE /* Yoga.c */ = {isa = PBXFileReference; includeInIndex = 1; name = Yoga.c; path = Render/objc/Yoga.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6DC81242CA28F97590BAD051682EFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64270B00904AA006677D814B0EEB4EC6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1E14A895072F39C17E3877F918A25A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4E60DB509E19B6681625EDF10B9D1D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D1903CA0D4DB99F08134BA9308AC947 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C877487E7A286EDA2110D2A616A73B2D /* Info.plist */,
+				930F71E14ECA40E0E1C9849A1645ED1C /* Render.modulemap */,
+				CF027200F27F92EDB383C4D507CDE707 /* Render.xcconfig */,
+				4D3CF8ACA91BF3252628D2EA05D0C71E /* Render-dummy.m */,
+				A2D1FBF4290716315500F5D00ED60C50 /* Render-prefix.pch */,
+				1F93C209580B43327BAB6062DF2BFB9F /* Render-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Render";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C9D44A253B9C1B44F635BC3641851267 /* Pods */,
+				85365993FE633E194AFE0F5F993BFC52 /* Products */,
+				BA26410F21D2ABD23964A5B0A00D8EC8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		85365993FE633E194AFE0F5F993BFC52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEEBC208B18872D6B9203C2C8542F1DE /* Pods_HelloRender.framework */,
+				6FC4213D14477AB2E5A1785770BCF778 /* Render.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6BE1B5FFD2BD5AA899EBDFD03138F79 /* Pods-HelloRender */ = {
+			isa = PBXGroup;
+			children = (
+				E235CA6BB9839BA51EFAA3894ABA4F36 /* Info.plist */,
+				4E76B4AAD70238EC7DE59A02A5218A97 /* Pods-HelloRender.modulemap */,
+				6C059D95CCF47274A3F0A9BBF33E458A /* Pods-HelloRender-acknowledgements.markdown */,
+				00936747FC1EBEB2D56E0175FC9075E1 /* Pods-HelloRender-acknowledgements.plist */,
+				8F8972D188B071086CE7302353CADBFC /* Pods-HelloRender-dummy.m */,
+				D9E7F6ACB7D96DF9A1E92738662F39D1 /* Pods-HelloRender-frameworks.sh */,
+				DB0E785E7A59B120839C4252E75C6EAB /* Pods-HelloRender-resources.sh */,
+				C76DAD01B457730C6F650A450BD315BE /* Pods-HelloRender-umbrella.h */,
+				B3D019566405168DD0751BF3148A6C2F /* Pods-HelloRender.debug.xcconfig */,
+				D2F51FA7CB87516B9EB3E8DBAC157092 /* Pods-HelloRender.release.xcconfig */,
+			);
+			name = "Pods-HelloRender";
+			path = "Target Support Files/Pods-HelloRender";
+			sourceTree = "<group>";
+		};
+		BA26410F21D2ABD23964A5B0A00D8EC8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6BE1B5FFD2BD5AA899EBDFD03138F79 /* Pods-HelloRender */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9D44A253B9C1B44F635BC3641851267 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E32BB3B82823DE2211244BE4C9437FEB /* Render */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E32BB3B82823DE2211244BE4C9437FEB /* Render */ = {
+			isa = PBXGroup;
+			children = (
+				CAB346780A003E56545DB4CDAB166A54 /* CollectionNode.swift */,
+				2D8F70FEC60DEAE4126B474662EF3E17 /* ComponentController.swift */,
+				90C8BAD344F3308BBFB83E3BFA58A5E9 /* ComponentView.swift */,
+				D070736A14786208E6D8982D90B61354 /* ComponentViewCell.swift */,
+				B2F572165B0B0FE734D796A1E89E2C19 /* Console.swift */,
+				371813E06ECB82A9FCBA82F40E1C7AE1 /* Extensions.swift */,
+				A4CB58DED4C9F76114067A140218D745 /* HttpServer.swift */,
+				B2E29F07BF943885EF3178872631A610 /* IGListCollectionViewLayout.h */,
+				5E954103C1FBA0A4B446B26AE18BFDB8 /* IGListCollectionViewLayout.mm */,
+				E1F44DF4FA2E660FB5EBF3206C5B2B98 /* Info.plist */,
+				CA8F7B5E23B4887C0636F316D73896D5 /* InternalCells.swift */,
+				672A45FB2D3EA641184088602B008272 /* LCS.swift */,
+				F2DDA892C79CEF96D283CB0E90597612 /* Node.swift */,
+				B5055DFD403A0C5B3E2C89C6FBFF4D43 /* Render.h */,
+				71692814086FEA0B3544062AF680D8BC /* Reset.swift */,
+				4CF21F498EE08061F4FEDD4632C37831 /* State.swift */,
+				C7AE8323875A465933E551742B12B51A /* TableNode.swift */,
+				270A617CB57ED1EAA41DBDAC6C89EFD2 /* UIView+Yoga.h */,
+				5C858110C07C0109057E323ED9DC3ED3 /* UIView+Yoga.m */,
+				CC69751EAF7DD1B60D3756A2BBF55AAC /* YGEnums.c */,
+				06996660122A744A048F5D38DF8A6373 /* YGEnums.h */,
+				7FCFD8E174778E405F1CA4757FA39327 /* YGLayout.h */,
+				12BF53FFD3E99390ED8EF88905064BF7 /* YGLayout.m */,
+				6B11328C87B28760FEEDEC901BCDEEFD /* YGLayout+Private.h */,
+				680D709454129D3EA6E78AE72222C2CD /* YGMacros.h */,
+				0B182ECF6C19C16B22F602F87B08A96A /* YGNodeList.c */,
+				486F68E5F2A6AAD0096DCADDDDC55D54 /* YGNodeList.h */,
+				3C7A023A03BFE498BF103D2136414B0B /* YGPercentLayout.h */,
+				E9E6FD5187DAFD0309F6A2446D962D58 /* YGPercentLayout.m */,
+				8FF586458555A2760AB02A01AB50563D /* YGPercentLayoutExtension.swift */,
+				FB09E3094F2C60B10231EF834E8424DE /* Yoga.c */,
+				498F3FB141FB2C558DC2D6E37E16F2EB /* Yoga.h */,
+				1D1903CA0D4DB99F08134BA9308AC947 /* Support Files */,
+			);
+			name = Render;
+			path = Render;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		91AB9614C8601C8328388F48CFF7A8E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C111DBDD030876B6E781EFB23DAB2D /* Pods-HelloRender-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA00772B182FFDCF7BA1059CC5A08930 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42687CEDF7A69BDE6ED425274945806C /* IGListCollectionViewLayout.h in Headers */,
+				D8E8934D993981631719EA33D7098E6A /* Render-umbrella.h in Headers */,
+				2DAB91E4185602DFD5D5A44EEEA28023 /* Render.h in Headers */,
+				C5365091C092FB41A86F5D32EA20E2C3 /* UIView+Yoga.h in Headers */,
+				C0C4EC069F6039E27EC807DD0400451D /* YGEnums.h in Headers */,
+				F6EC3296B626A040E891AC16DD480917 /* YGLayout+Private.h in Headers */,
+				48AFC61BFC1B091653491EA887E24B4C /* YGLayout.h in Headers */,
+				17A9192439DF9E0FED8BE0B66D26C337 /* YGMacros.h in Headers */,
+				7F6C3F7D3D3F564FD20F1DA9C252B88A /* YGNodeList.h in Headers */,
+				7034E50A0A441D60CD1B15EDDF432537 /* YGPercentLayout.h in Headers */,
+				A2DED86CAD2E416E23D611BD1F655D25 /* Yoga.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		250F99A0ADE44A928336AB2B5E2F6C84 /* Pods-HelloRender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFE7B1390C086EA5C04617F8966D8805 /* Build configuration list for PBXNativeTarget "Pods-HelloRender" */;
+			buildPhases = (
+				BEE3772BFD99D4C2E685902D71E61B1A /* Sources */,
+				F1E14A895072F39C17E3877F918A25A9 /* Frameworks */,
+				91AB9614C8601C8328388F48CFF7A8E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9EBF3B89D5C8C773E7C1D95C804F152B /* PBXTargetDependency */,
+			);
+			name = "Pods-HelloRender";
+			productName = "Pods-HelloRender";
+			productReference = DEEBC208B18872D6B9203C2C8542F1DE /* Pods_HelloRender.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AAC809C2EA0983ED747CFAD8DC28C9E /* Render */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CD63DE065C39B54200EB623ACAB1C4D /* Build configuration list for PBXNativeTarget "Render" */;
+			buildPhases = (
+				1DA662406CAD02404FBCD52B9B4F1E68 /* Sources */,
+				6E6DC81242CA28F97590BAD051682EFA /* Frameworks */,
+				FA00772B182FFDCF7BA1059CC5A08930 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Render;
+			productName = Render;
+			productReference = 6FC4213D14477AB2E5A1785770BCF778 /* Render.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 85365993FE633E194AFE0F5F993BFC52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250F99A0ADE44A928336AB2B5E2F6C84 /* Pods-HelloRender */,
+				9AAC809C2EA0983ED747CFAD8DC28C9E /* Render */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DA662406CAD02404FBCD52B9B4F1E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAAD1D769B5978E8AD3B53A00695E2A /* CollectionNode.swift in Sources */,
+				0EE8664E79DF67B321D9238641EFCE16 /* ComponentController.swift in Sources */,
+				328EE574BB3A32C061832F5A06BCCE65 /* ComponentView.swift in Sources */,
+				F03DECE196A5FFCAAB6358DB7C125D1F /* ComponentViewCell.swift in Sources */,
+				C6E9D27A089A36877F0430EF91D3A226 /* Console.swift in Sources */,
+				9F1BD75F591BF71A385F5DC4348DB377 /* Extensions.swift in Sources */,
+				825B7BA6181F511B30F803A8959DA1ED /* HttpServer.swift in Sources */,
+				CCABEFB2A9F11B2AD63ED64D7BAAB49A /* IGListCollectionViewLayout.mm in Sources */,
+				575B24B55D7A40ADD38621E164EC10A8 /* Info.plist in Sources */,
+				1685DCDDA5C0C1A5D8AD5184DACE7A7F /* InternalCells.swift in Sources */,
+				DE4CF91CA24E25CB259B83B2F68571EF /* LCS.swift in Sources */,
+				2D1D0A32CAA5DA48451DB599ABEAA316 /* Node.swift in Sources */,
+				EEBEE9D4D15C6C0410A34C6536238542 /* Render-dummy.m in Sources */,
+				4ADC7ACCB6919F106D903955F8B5D96E /* Reset.swift in Sources */,
+				DB90A05F335C5019D5062058CAB36762 /* State.swift in Sources */,
+				C2DC550A54E466CFD785548830801A12 /* TableNode.swift in Sources */,
+				D1DFA25190860C1E6217E1B86390C163 /* UIView+Yoga.m in Sources */,
+				04CED6CCBA3B08E4739DB9651254A512 /* YGEnums.c in Sources */,
+				91D262C8E2D4D0624FFFB363A6201C3E /* YGLayout.m in Sources */,
+				675743D50DEB2C933E1481EEA15C3F12 /* YGNodeList.c in Sources */,
+				CDF3A7091B9E993406FD507472D4E0D8 /* YGPercentLayout.m in Sources */,
+				DA9F6144DA2749DFC4FF39FC9747486D /* YGPercentLayoutExtension.swift in Sources */,
+				4C4E3FC8ACE8858103093B8200FEFFF4 /* Yoga.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE3772BFD99D4C2E685902D71E61B1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1277341FF8D5DDFEA28BD3FFEEC447D0 /* Pods-HelloRender-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9EBF3B89D5C8C773E7C1D95C804F152B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Render;
+			target = 9AAC809C2EA0983ED747CFAD8DC28C9E /* Render */;
+			targetProxy = BD9E799E9A3F9734A87903E3F9A0A21E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		38C9A20B7FB2038B0D3868C6717A9A85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF027200F27F92EDB383C4D507CDE707 /* Render.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Render/Render-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Render/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Render/Render.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Render;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45CD39198F0868E6CDF009CAB372DCAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3D019566405168DD0751BF3148A6C2F /* Pods-HelloRender.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloRender/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloRender/Pods-HelloRender.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4FBF410C7D45BD5F0223E9B93DFA4203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF027200F27F92EDB383C4D507CDE707 /* Render.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Render/Render-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Render/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Render/Render.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Render;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D07DCFBA9DA84FD687068106840536F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2F51FA7CB87516B9EB3E8DBAC157092 /* Pods-HelloRender.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HelloRender/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HelloRender/Pods-HelloRender.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HelloRender;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CD63DE065C39B54200EB623ACAB1C4D /* Build configuration list for PBXNativeTarget "Render" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FBF410C7D45BD5F0223E9B93DFA4203 /* Debug */,
+				38C9A20B7FB2038B0D3868C6717A9A85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFE7B1390C086EA5C04617F8966D8805 /* Build configuration list for PBXNativeTarget "Pods-HelloRender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45CD39198F0868E6CDF009CAB372DCAD /* Debug */,
+				D07DCFBA9DA84FD687068106840536F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
