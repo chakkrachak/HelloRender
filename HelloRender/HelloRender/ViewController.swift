@@ -22,6 +22,11 @@ class TextComponentView: ComponentView<TextState> {
 
         let container = Node<UIView> { view, layout, _ in
             view.backgroundColor = UIColor(red:0, green:0.62, blue:0.88, alpha:1.0)
+            view.onTap { _ in
+                self.setState { state in
+                    state.text = "Text changed"
+                }
+            }
         }
 
         return container.add(child: text)
