@@ -10,7 +10,7 @@ import UIKit
 import Render
 
 struct TextState: StateType {
-    let text: String = "Hello Render"
+    var text: String = "Hello Render"
 }
 
 class TextComponentView: ComponentView<TextState> {
